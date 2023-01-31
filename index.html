@@ -19,20 +19,20 @@
             class="logo"
           />
           <ul class="nav__links">
-            <li>
-              <a class="nav__link" href="#Picks">Staff picks</a>
+            <li id="Picks">
+              <a class="nav__link" href="#">Staff picks</a>
             </li>
-            <li>
-              <a class="nav__link" href="#Events">Events</a>
+            <li id="Events">
+              <a class="nav__link" href="#">Events</a>
             </li>
-            <li>
-              <a class="nav__link" href="#Member">Become a member</a>
+            <li id="Member">
+              <a class="nav__link" href="#">Become a member</a>
             </li>
-            <li>
-              <a class="nav__link" href="#About">About</a>
+            <li id="About">
+              <a class="nav__link" href="#">About</a>
             </li>
-            <li>
-              <a class="nav__link" href="#Contacts">Contacts</a>
+            <li id="Contacts">
+              <a class="nav__link" href="#">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -56,7 +56,7 @@
       </header>
 
       <main class="content">
-        <section id="Events" class="events">
+        <section class="events">
           <div class="events__content">
             <h2 class="events__heading">Upcoming events:</h2>
             <h3 class="events__title">
@@ -133,7 +133,7 @@
         </section>
 
         <section class="staff">
-          <h2 id="Picks" class="staff__title">Staff picks</h2>
+          <h2 class="staff__title">Staff picks</h2>
           <p class="staff__subtitle">That our readers love</p>
           <ul class="staff__cards">
             <li class="card">
@@ -206,7 +206,7 @@
           </ul>
         </section>
 
-        <section id="Member" class="membership">
+        <section class="membership">
           <h2 class="membership__title">Becoming a library member is easy!</h2>
           <ul class="membership__steps">
             <li class="step">
@@ -262,7 +262,7 @@
           </ul>
         </section>
 
-        <section class="about" id="About">
+        <section class="about">
           <h2 class="about__title">About the library</h2>
           <div class="about__content">
             <p class="about__paragraph">
@@ -289,12 +289,13 @@
 
       <footer class="footer">
         <div class="footer__columns">
-          <img
-            src="./images/logo_white.png"
-            alt="logo"
-            class="footer__logo footer__column"
-          />
-
+          <div class="footer__column">
+            <img
+              src="./images/logo_white.png"
+              alt="logo"
+              class="footer__logo"
+            />
+          </div>
           <div class="footer__column footer__column_content_hours">
             <h2 class="footer__column-heading">Hours</h2>
             <ul class="footer__list">
@@ -309,7 +310,7 @@
               <li class="footer__list-item">
                 <a
                   class="footer__column-link"
-                  href="https://www.facebook.com/leur.gallardo.5/"
+                  href="https://www.facebook.com/leur.gallardo.5/#"
                 >
                   <img
                     class="footer__social-icon"
@@ -322,7 +323,7 @@
               <li class="footer__list-item">
                 <a
                   class="footer__column-link"
-                  href="https://www.instagram.com/"
+                  href="https://www.instagram.com/#"
                 >
                   <img
                     class="footer__social-icon"
