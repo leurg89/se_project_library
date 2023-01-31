@@ -17,6 +17,10 @@
   box-sizing: border-box;
 }
 
+.header__link:hover {
+  color: #1f69c9;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -37,6 +41,10 @@
   list-style-type: none;
   column-gap: 20px;
   padding: 0;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
 }
 
 .nav__link {
@@ -162,6 +170,10 @@
   margin-top: 60px;
   color: #2f80ed;
   text-decoration: none;
+}
+
+.events__more:hover {
+  color: #1f69c9;
 }
 
 .events__cover {
